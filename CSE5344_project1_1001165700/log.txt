@@ -1,0 +1,100 @@
+CSE5344 COMPUTER NETWORKS PROJECT - I
+
+Server is started
+
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
+Received Connection from <Host,Port>  ('127.0.0.1', 53304)
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
+Received Connection from <Host,Port>  ('127.0.0.1', 53305)
+--------------------------------------------------
+
+Request is  GET  to URL :  www.facebook.com
+--------------------------------------------------
+
+Cache File not Found
+ File is being fetched from Server to Create Cache
+
+Socket Connected on default Port 80 to fetch
+HTTP/1.1 302 Found
+
+Location: https://www.facebook.com/
+
+Vary: Accept-Encoding
+
+Content-Type: text/html
+
+X-FB-Debug: 4hazUNjiWL3B4HFl+uteS77ctIUhWiQt8sroEssLboIS6Dme5PLvpRwCNvPKSGlNltb4U3ATf1NeWZ+wnGlxpg==
+
+Date: Sun, 30 Oct 2016 04:55:03 GMT
+
+Connection: close
+
+Content-Length: 0
+
+
+
+Time taken to read from Server: 0.100378264797  Secs
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
+Received Connection from <Host,Port>  ('127.0.0.1', 53311)
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
+Received Connection from <Host,Port>  ('127.0.0.1', 53318)
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
+Received Connection from <Host,Port>  ('127.0.0.1', 53319)
+--------------------------------------------------
+
+Request is  GET  to URL :  www.facebook.com
+--------------------------------------------------
+
+Match found in cache and reading the file
+
+HTTP/1.1 302 Found
+
+Location: https://www.facebook.com/
+
+Vary: Accept-Encoding
+
+Content-Type: text/html
+
+X-FB-Debug: 4hazUNjiWL3B4HFl+uteS77ctIUhWiQt8sroEssLboIS6Dme5PLvpRwCNvPKSGlNltb4U3ATf1NeWZ+wnGlxpg==
+
+Date: Sun, 30 Oct 2016 04:55:03 GMT
+
+Connection: close
+
+Content-Length: 0
+
+
+
+The above is the file read from Cache
+Time taken to read from Cache: 0.0051481894795  Secs
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
+Received Connection from <Host,Port>  ('127.0.0.1', 53320)
+Bind Successful
+
+Connection Accepted
+
+-------------------------------------
